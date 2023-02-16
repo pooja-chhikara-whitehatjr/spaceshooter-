@@ -119,6 +119,7 @@ var alienbullet=createSprite(a,b)
 alienbullet.addImage("bullet",alienbulletImage)
 alienbullet.setVelocity(-50,0)
 alienbullet.scale=0.5
+  alienbulletGroup.add(alienbullet)
 }
 function regularBullet(){
   if(frameCount%80==0){
